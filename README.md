@@ -3,7 +3,7 @@
 
 Inserir os comandos abaixo na pasta backend:
 
-**npm i -y** para instalar as dependências
+* **npm i -y** para instalar as dependências
 
 * Rodar **mongod** na pasta para iniciar o Banco de Dados
 
@@ -13,16 +13,14 @@ Inserir os comandos abaixo na pasta backend:
 
 	caso não rodar o monit, rodar o comando **./node_modules/.bin/pm2 resurrect** para recuperar a aplicação
 
-OBS: Os três comandos acima devem estar rodando para ter o resultado esperado, cada um em um terminal
+* OBS: Os três comandos acima devem estar rodando para ter o resultado esperado, cada um em um terminal
 
 
 ### Past frontend
 
-**npm i -y** para instalar as dependências
+* **npm i -y** para instalar as dependências
 
-Rodar os comandos:
-	**npm run dev** - rodar aplicação em develop ou desenvolvedor
-					**OU**
-	**npm run production** - rodar aplicação em produção
+* Rodar os comandos:
+**npm run dev** - rodar aplicação em develop ou desenvolvedor ou se for para produção **npm run production** - rodar aplicação em produção
 
 Basta acessar http://localhost:8080/#/todos e se todos os passos estiverem ok, a aplicação já estará funcionando perfeitamente.
