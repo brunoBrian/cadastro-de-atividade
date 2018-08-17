@@ -14,3 +14,11 @@
 .todoForm {
   	padding-bottom: 60px;
 }
+
+.error {
+	margin-bottom: 10px;
+}
+
+.error span {
+	padding: 10px;
+}
